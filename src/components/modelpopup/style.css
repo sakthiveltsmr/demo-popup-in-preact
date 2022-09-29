@@ -1,0 +1,36 @@
+.popup{
+   display: flex;
+   flex-direction: column;
+   width: 90vh;
+   height: 30vh;
+   /* align-items: center; */
+   /* justify-content: center; */
+   box-sizing: border-box;
+   box-shadow:5px 10px #ece8e8;
+   background-color: rgb(111, 226, 226);
+   border: none;
+   border-radius: 10px;
+   z-index:1;
+   
+}
+
+.close{
+   width: 50px;
+   height: 50px;
+   margin-top: 0;
+   margin-left: 90%;
+   margin-top: 2%;
+   border-radius: 5px;
+   border: none;
+   cursor: pointer;
+   z-index: 1;
+
+}
+.close:hover{
+    background-color: rgb(236, 93, 93);
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
